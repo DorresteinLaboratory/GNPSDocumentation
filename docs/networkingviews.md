@@ -15,7 +15,7 @@ View All Clusters allow a user to view the all consensus spectra in the molecula
 
 ![img](img/networkingviews/allclusters.png)
 
-While Molecular Networking matches to all public reference libraries, the majority of molecules detected in untargeted LC/MS runs are unidentified. To help annotate these unidentified spectra, click the "AddToLibrary" to be taken to the view that allows you to choose a specific MS/MS spectrum to annotate. Then Click "+Bronze" to be taken to the annotation page with the spectrum prepopulated. Check out the details about annotation - [Annotation Documentation](spectrumcuration/#adding-single-spectra).
+While Molecular Networking matches to all public reference libraries, the majority of molecules detected in untargeted LC/MS runs are unidentified. To help annotate these unidentified spectra, click the "AnnotatetoGNPS" to be taken to the view that allows you to choose a specific MS/MS spectrum to annotate. Then Click "AnnotatetoGNPS" to be taken to the annotation page with the spectrum prepopulated. Check out the details about annotation - [Annotation Documentation](spectrumcuration/#adding-single-spectra).
 
 
 To view all the input MS/MS spectra that went into the consensus spectrum, click the link in the "ClusterIdx" link
@@ -43,8 +43,6 @@ This brings up an in-browser visualization for a given spectral family
 Here users can explore the specific spectral family in the molecular network. Each circle (node) in the left network panel represents a consensus spectrum and edge represents related fragmentation patterns. The default color of the nodes is gray, with blue nodes representing consensus MS/MS spectra that were identified by library search.
 
 There is a lot to unpack in this online interface to explore the molecular networks. The following is a quick guide to all the features in this interface
-
-![img](img/networking/networkingviz_highlight.png)
 
 1. Node Labels
 2. Edge Labels

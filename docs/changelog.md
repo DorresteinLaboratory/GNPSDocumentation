@@ -1,5 +1,24 @@
 ## Change Log
 
+### 3/9/2019
+
+* Adding qiime2 qza and emperor output for Feature Based Molecular Networking
+* Adding GraphML output for MS2LDA
+* GNPS Quickstart will do only the fly conversion of Thermo raw files. 
+
+
+### 2/5/2019
+
+* Adding credentials option for GNPS quickstart for classic molecular Networking
+* Adding link to clone deprecated molecular networking to latest version of molecular networking
+* Adding direct re-analysis link for MS2LDA from molecular networking
+* Bug fixes for MS2LDA
+* Adding batch spectra additional validator
+
+### 12/27/2018
+
+* GNPS quickstart support within MZMine2 updated
+
 ### 11/1/2018
 
 * Added UniqueFileCount to GraphML in Classic Molecular Networking
