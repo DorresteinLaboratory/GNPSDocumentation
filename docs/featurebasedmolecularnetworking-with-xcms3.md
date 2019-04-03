@@ -24,7 +24,7 @@ Smith, C.A., Want, E.J., O'Maille, G., Abagyan,R., Siuzdak, G. [XCMS: Processing
 
 ### Mass Spectrometry Data Processing with XCMS3
 
-As for all preprocessing software tools, a sequence of steps is performed to process mass spectrometry data in XCMS3. Here we will present key steps required to process untargeted LC-MS/MS data collected using data dependent acquisition. An example step-by-step guide is accessible as [Jupyter notebook or R markdown documents](https://github.com/DorresteinLaboratory/XCMS3_FeatureBasedMN).
+As for all preprocessing software tools, a sequence of steps is performed to process mass spectrometry data in XCMS3. Here we will present key steps required to process untargeted LC-MS/MS data collected using data dependent acquisition. An example step-by-step guide is accessible as [Jupyter notebook or R Markdown documents](https://github.com/DorresteinLaboratory/XCMS3_FeatureBasedMN).
 
 **IMPORTANT:** XCMS3 parameters will vary depending on the mass spectrometer, the acquisition parameters, and the samples investigated. The following documentation serves as a basic guideline for using XCMS3 with the Feature-Based Molecular Networking workflow.
 
@@ -40,11 +40,11 @@ XCMS3 accepts different input formats. Note that we recommand to first convert y
 
 Before we can use XCMS3 R package we need to install R. Windows users can [download it here](https://cran.r-project.org/bin/windows/base/) and Mac OS users can [download it here](https://cran.r-project.org/bin/macosx/).
 
-R can be used on the terminal, with  [RStudio](https://www.rstudio.com/products/RStudio/) or [Jupyter](https://cran.r-project.org/bin/macosx/), see ANACONDA documentation for a [user friendly installation](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/). Once R is installed and one's favorite to interact with it is chosen, one can be easily installed as [shown above](#mass-spectrometry-processing-with-xcms3)
+R can be used on the terminal, with  [RStudio](https://www.rstudio.com/products/RStudio/) or [Jupyter](https://cran.r-project.org/bin/macosx/), see ANACONDA documentation for a [user friendly installation](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/). Once R is installed and one's favorite way to interact with it is chosen, XCMS3 can be easily installed as [shown above](#mass-spectrometry-processing-with-xcms3)
 
 #### Processing Steps
 
-The XCMS3 is a very popular R package with a large user base and very good community support. Here we are going to explore some basic processing features of the package with the [tutorials described above](https://github.com/DorresteinLaboratory/XCMS3_FeatureBasedMN) performing the processing described in the workflow figure below:
+The XCMS3 is a very popular R package with a large user base and very good community support. Here we are going to explore some basic processing features of the package with the [tutorials described above](https://github.com/DorresteinLaboratory/XCMS3_FeatureBasedMN) performing the processing described in the workflow figure:
 
 ![xcmsworkflow](img/featurebasedmolecularnetworking/xcms_workflow.svg)
 
@@ -56,7 +56,7 @@ After the completion of the workflow described above, the user can proceed to [F
 
 - a list of the MS/MS spectra (.MGF file format) (the most intense MS/MS per feature is selected).
 
-generated with the workflow above.
+generated in the last step of the workflow.
 
 ##### The files can be uploaded to the GNPS web-platform and a Feature-Based Molecular Networking job can be directly launched
 
