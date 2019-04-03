@@ -10,7 +10,7 @@ Below follows a description on how to use XCMS3 with the FBMN workflow in GNPS.
 
 ## Mass spectrometry processing with XCMS3
 
-Install the latest version of XCMS3 from [Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/xcms.html) or [https://github.com/sneumann/xcms](https://github.com/sneumann/xcms).
+Install the latest version of XCMS3 from [Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/xcms.html) or [GitHub](https://github.com/sneumann/xcms).
 
 ### Citations and development
 
@@ -46,7 +46,7 @@ R can be used on the terminal, with  [RStudio](https://www.rstudio.com/products/
 
 The XCMS3 is a very popular R package with a large user base and very good community support. Here we are going to explore some basic processing features of the package with the [tutorials described above](https://github.com/DorresteinLaboratory/XCMS3_FeatureBasedMN) performing the processing described in the workflow figure below:
 
-![xcmsworkflow](img/featurebasedmolecularnetworking/xcms_workflow.png)
+![xcmsworkflow](img/featurebasedmolecularnetworking/xcms_workflow.svg)
 
 ##### Submit the files needed for Feature-Based Molecular Networking to GNPS:
 
@@ -67,7 +67,7 @@ generated with the workflow above.
 
 The workflow for Feature Based Molecular Networking in GNPS is different from the classical molecular networking workflow. [Access the FBMN workflow here](https://gnps.ucsd.edu/ProteoSAFe/index.jsp?params=%7B%22workflow%22:%22METABOLOMICS-SNETS-MZMINE%22,%22library_on_server%22:%22d.speclibs;%22%7D) (You need to be logged in first !).
 
-More information on the Feature Based Molecular Networking workflow on GNPS can be obtained at [this documentation page](featurebasedmolecularnetworking).
+More information on the Feature Based Molecular Networking workflow on GNPS can be obtained at [this documentation page](featurebasedmolecularnetworking.md).
 
 Test files are accessible [here](https://github.com/CCMS-UCSD/GNPSDocumentation/tree/master/docs/tutorials/AG_tutorial_files):
 
