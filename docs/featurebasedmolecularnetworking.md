@@ -20,7 +20,7 @@ In brief, mass spectrometry processing tools have been adapted to export files t
 
 [Documentation for OpenMS](featurebasedmolecularnetworking-with-OpenMS) (advanced feature detection tool, mainly used as commandline; Linux/Mac/Windows)
 
-[Documentation for XCMS](featurebasedmolecularnetworking-with-XCMS) (advanced feature detection tool, mainly used via R language; Linux/Mac/Windows)
+[Documentation for XCMS](featurebasedmolecularnetworking-with-xcms3.md) (advanced feature detection tool, mainly used via R language; Linux/Mac/Windows)
 
 [Documentation for MetaboScape](featurebasedmolecularnetworking-with-metaboscape) (Bruker data only, and requires a commercial licence)
 
