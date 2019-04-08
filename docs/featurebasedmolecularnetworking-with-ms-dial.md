@@ -76,7 +76,7 @@ You should set a appropriate MS/MS abundance cutoff. Make sure to set an intensi
 
 This is typically lower than for MS1. If you have any doubt, set it to 0.
 
-![img](img/ms-dial/set-parameters-deconvoltion.png)
+![img](img/ms-dial/set-parameters-deconvolution.png)
 
 #### 5. Set Parameters - Alignment
 
@@ -88,7 +88,7 @@ Click the “finish” button, then MS-DIAL will perform all the feature finding
 
 ![img](img/ms-dial/set-parameters-alignment.png)
 
-##### Export or/and submit the files needed for Feature-Based Molecular Networking on GNPS:
+### Export or/and submit the files needed for Feature-Based Molecular Networking on GNPS:
 
 - a feature table with ion intensities (.CSV file format)
 
@@ -129,8 +129,8 @@ Basically, you will need to upload the files ouputted by the MS-DIAL processing 
 2. MGF for MS/MS from above
 3. Metadata table - described [here](networking#metadata)
 
-Here is an example MS-DIAL networking [job](https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=xxxxxx) from a subset of the American Gut Project.
+Here is an example MS-DIAL networking [job](https://proteomics2.ucsd.edu/ProteoSAFe/status.jsp?task=f5137114cac24781a9015ba09e416a98) from a subset of the American Gut Project.
 
 ## Tutorials
 
-See our [MS-DIAL tutorial](tutorials/americangutms-dial) on using Feature Based Molecular Networking for the American Gut Project sample.
+See our [MS-DIAL tutorial](tutorials/americangut-ms-dial) on using Feature Based Molecular Networking for the American Gut Project sample.
